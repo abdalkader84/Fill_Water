@@ -1,0 +1,94 @@
+object Form1: TForm1
+  Left = 0
+  Top = 0
+  Caption = 'Form1'
+  ClientHeight = 535
+  ClientWidth = 758
+  FormFactor.Width = 320
+  FormFactor.Height = 480
+  FormFactor.Devices = [Desktop]
+  DesignerMasterStyle = 0
+  object Rectangle1: TRectangle
+    Fill.Color = claWhite
+    Position.X = 184.000000000000000000
+    Position.Y = 128.000000000000000000
+    Size.Width = 401.000000000000000000
+    Size.Height = 353.000000000000000000
+    Size.PlatformDefault = False
+    object Path1: TPath
+      Align = Client
+      Fill.Color = xFF0B8DF7
+      Size.Width = 401.000000000000000000
+      Size.Height = 353.000000000000000000
+      Size.PlatformDefault = False
+      Stroke.Color = xFF0576D1
+      object Rectangle2: TRectangle
+        Position.X = -49.000000000000000000
+        Size.Width = 50.000000000000000000
+        Size.Height = 17.000000000000000000
+        Size.PlatformDefault = False
+      end
+      object Rectangle3: TRectangle
+        Align = Scale
+        Position.X = 400.205932617187500000
+        Position.Y = 334.917602539062500000
+        Size.Width = 45.261383056640630000
+        Size.Height = 18.082397460937500000
+        Size.PlatformDefault = False
+      end
+      object Rectangle4: TRectangle
+        Align = Scale
+        Fill.Color = claWhite
+        Position.X = 400.056457519531300000
+        Position.Y = 71.857505798339840000
+        Size.Width = 46.232910156250000000
+        Size.Height = 17.066154479980470000
+        Size.PlatformDefault = False
+      end
+      object Rectangle5: TRectangle
+        Align = Scale
+        Fill.Color = claWhite
+        Position.X = 400.000000000000000000
+        Position.Y = 263.000000000000000000
+        Size.Width = 47.000000000000000000
+        Size.Height = 15.000000000000000000
+        Size.PlatformDefault = False
+      end
+    end
+  end
+  object Button1: TButton
+    Position.X = 264.000000000000000000
+    Position.Y = 64.000000000000000000
+    TabOrder = 1
+    Text = 'Button1'
+    Visible = False
+    OnClick = Button1Click
+  end
+  object Timer1: TTimer
+    Interval = 100
+    OnTimer = Timer1Timer
+    Left = 592
+    Top = 64
+  end
+  object Text1: TText
+    Position.X = 96.000000000000000000
+    Position.Y = 16.000000000000000000
+    Size.Width = 473.000000000000000000
+    Size.Height = 33.000000000000000000
+    Size.PlatformDefault = False
+  end
+  object Switch1: TSwitch
+    IsChecked = False
+    Position.X = 104.000000000000000000
+    Position.Y = 96.000000000000000000
+    TabOrder = 5
+    OnSwitch = Switch1Switch
+  end
+  object Switch2: TSwitch
+    IsChecked = False
+    Position.X = 608.000000000000000000
+    Position.Y = 424.000000000000000000
+    TabOrder = 4
+    OnSwitch = Switch2Switch
+  end
+end
